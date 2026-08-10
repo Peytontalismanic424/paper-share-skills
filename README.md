@@ -33,11 +33,11 @@
 
 | Agent | 安装位置 | 命令（在本仓库根目录） |
 |-------|----------|------------------------|
-| Claude Code | `~/.claude/skills/<name>/` 或项目 `.claude/skills/` | `cp -r skills/* ~/.claude/skills/` |
-| Codex CLI | `~/.codex/skills/<name>/` 或项目 `.codex/skills/` | `cp -r skills/* ~/.codex/skills/` |
-| OMP (Oh My Pi) | `<工作根目录>/.omp/skills/<name>/` | `cp -r skills/* .omp/skills/` |
+| Claude Code | `~/.claude/skills/<name>/` 或项目 `.claude/skills/` | `cp -r paper-* pdf-to-markdown sustech-beamer-theme-fix ~/.claude/skills/` |
+| Codex CLI | `~/.codex/skills/<name>/` 或项目 `.codex/skills/` | `cp -r paper-* pdf-to-markdown sustech-beamer-theme-fix ~/.codex/skills/` |
+| OMP (Oh My Pi) | `<工作根目录>/.omp/skills/<name>/` | `cp -r paper-* pdf-to-markdown sustech-beamer-theme-fix .omp/skills/` |
 
-> 💡 说明：额外的 frontmatter 字段（`user-invocable`、`argument-hint`）会被不识别它们的 Agent 忽略；`SKILL.md` 中引用的 `<SKILLS_DIR>/<name>/scripts/...` 即安装技能目录的上层目录；Windows 下请用 Explorer / `xcopy /E /I skills <target>` 复制（符号链接需要管理员权限）。
+> 💡 说明：额外的 frontmatter 字段（`user-invocable`、`argument-hint`）会被不识别它们的 Agent 忽略；`SKILL.md` 中引用的 `<SKILLS_DIR>/<name>/scripts/...` 即安装技能目录的上层目录；Windows 下请用 Explorer 复制上述 8 个技能目录到目标文件夹（符号链接需要管理员权限）。
 
 ### 一行式流水线 | One-line pipeline
 
