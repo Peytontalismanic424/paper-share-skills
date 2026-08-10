@@ -159,6 +159,7 @@ Use the **HIL SERL example** as a filled-in style reference:
 - `\setdomains{\domaintag{...}\domaintag{...}\domaintag{...}}` — 3-4 research domain tags displayed on the title page as colored pills. Tags MUST be in Chinese (e.g. `多智能体RL`, `LLM Agent`, `RL后训练`). English terms like `Multi-Agent RL`, `RL Post-Training` are NEVER allowed — they look inconsistent next to Chinese text and break the SUSTech theme's bilingual presentation style.
 - `\setpresenter{$PRESENTER}` (default) or ask the user.
 - `\setvenue{<venue location>}` (default: ask the user).
+- 标题页出处脚注 `\creditline`（默认显示：`哔哩哔哩 · 白拾的物理AI组会 · github.com/yhbcode000/sustech-slides-template`）。公开分享/发布视频建议保留；汇报/答辩需要干净版式时在导言区加 `\hidecredits` 关闭，或 `\setcreditline{}` 置空、`\setcreditline{...}` 自定义文案。
 
 Delete the placeholder-helper macros `\ph` and `\phfig` — they're no longer needed.
 

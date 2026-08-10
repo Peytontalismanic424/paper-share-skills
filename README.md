@@ -347,6 +347,7 @@ python -c "import biliup; print('OK')"
 | 🎬 **B 站视频** | 讲解视频发布至 B 站时，欢迎 @ **白拾的物理组会**（可选），获取选题 / 排版反馈，加入组会共创 |
 | 🐙 **GitHub** | 可在视频简介 / 博客文末附本仓库链接（`github.com/yhbcode000/paper-share-skills` 与配套模板 `sustech-slides-template`），方便观众取用 |
 | 📝 **署名** | 建议幻灯片保留 `\setcreditauthor` 作者信息宏；二次创作建议保留原论文引用与来源链接 |
+| 📄 **幻灯片出处** | 幻灯片标题页默认带出处脚注（`哔哩哔哩 · 白拾的物理AI组会 · GitHub`），**可关闭**：汇报/答辩在导言区加 `\hidecredits`，或 `\setcreditline{}` 置空、`\setcreditline{...}` 自定义 |
 | 🔄 **改造** | 允许 fork / 二次开发 / 商用，无需告知作者；仅需遵守 Apache-2.0 许可条款（见下） |
 
 ---
