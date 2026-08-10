@@ -1,0 +1,35 @@
+name: 🐛 Bug 报告 | Bug Report
+description: 汇报技能 / 流水线故障
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量提供复现信息，便于快速定位。
+  - type: input
+    id: step
+    attributes:
+      label: 故障环节 | Pipeline step
+      description: 哪个技能/阶段出错（download / pdf-to-markdown / paper-to-beamer / slides-to-video / uploader / orchestrator）
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤 | Reproduction
+      description: 输入了什么、执行了什么命令、在哪里失败的
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错信息 | Error output
+      description: 粘贴关键报错 / 日志（请勿粘贴 cookie 等凭据）
+      render: shell
+  - type: input
+    id: env
+    attributes:
+      label: 环境 | Environment
+      description: Agent（OMP/Claude Code/Codex）、Python 版本、操作系统
+      placeholder: "OMP · Python 3.10 · Windows 11"
