@@ -7,7 +7,7 @@
 > A drop-in skill suite for the paper-to-bilibili pipeline — from arXiv download and SUSTech Beamer slides to narrated videos and Bilibili publishing, installable in Claude Code, Codex CLI, and OMP.
 
 > 👤 **杨昊波 (Haobo Yang)** — 2026 届计算机系博士 · [github.com/yhbcode000](https://github.com/yhbcode000) · yhbcode000@foxmail.com
-> 🎨 配套 LaTeX 模板：[sustech-slides-template](https://github.com/yhbcode000/sustech-slides-template)
+> 📦 **本仓库**：[github.com/yhbcode000/paper-share-skills](https://github.com/yhbcode000/paper-share-skills) · 🎨 配套 LaTeX 模板：[sustech-slides-template](https://github.com/yhbcode000/sustech-slides-template)
 
 ---
 
