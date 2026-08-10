@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+voices/
+download.log
+cookie.txt
+.login_profile/
